@@ -66,5 +66,4 @@ function Charts(id) {
 function optionChanged(changedid) {
     metadata(changedid);
     Charts(changedid);
-    // barCharts(changedid);
 };
