@@ -83,7 +83,6 @@ function createGauge() {
     width: 600,
     shapes:[{
         type: 'path',
-        // path: 'M .48 .5 L 0.5 .85 L .52 .5 Z',
         path: path,
         fillcolor: '850000',
         line: {
