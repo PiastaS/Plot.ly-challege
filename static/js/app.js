@@ -7,6 +7,7 @@ function buildMetaData(sample) {
     // Filter the data
     var buildingArray = metadata.filter(sampleObj => sampleObj.id == sample);
     var result = buildingArray[0];
+    
     // Use d3 to select the required panel
     var panelData = d3.select("#sample-metadata");
 
